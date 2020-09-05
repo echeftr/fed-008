@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Een Simple Site</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <img id="logo-top" src="images/Lbl.png" alt="logo black">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Over ons</a></li>
+                    <li><a href="recepten.html">Recepten</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="contact-wrapper">
+            <div class="my-form-title">
+                <h1>Neem contact met ons op</h1>
+            </div>
+            <form class="my-form" name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label>Naam: </label><br>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <label>Email: </label><br>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group">
+                    <label>Bericht: </label><br>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </div>
+                <input class="button" type="submit" value="Verzenden">
+            </form>
+        </div>
+    </main>
+    <div class="extra-space" style="margin-top:100px;"></div>
+
+
+
+    <footer>
+        <p>&copy; 2020 SnelleSite</p>
+    </footer>
+
+</body>
+
+</html>
